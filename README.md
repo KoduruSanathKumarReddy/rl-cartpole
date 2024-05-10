@@ -8,9 +8,10 @@ This environment corresponds to the version of the cart-pole problem described b
 ~~~
 Developed by: Koduru Sanath Kumar Reddy
 Registered no:212221240024
-~~~
 
+~~~
 ## MONTE CARLO CONTROL ALGORITHM FOR CART POLE BALANCING
+~~~
 def create_bins(n_bins=g_bins, n_dim=4):
 
     bins = [
@@ -71,11 +72,10 @@ def create_bins(n_bins=g_bins, n_dim=4):
         state = next_state
 
     return np.array(trajectory, dtype=object)
-    
+~~~
 
 ## MONTE CARLO CONTROL FUNCTION
-
-
+~~~
 def mc_control (env,n_bins=g_bins, gamma = 1.0,
                 init_alpha = 0.5,min_alpha = 0.01, alpha_decay_ratio = 0.5,
                 init_epsilon = 1.0, min_epsilon = 0.1, epsilon_decay_ratio = 0.9,
@@ -126,6 +126,9 @@ def mc_control (env,n_bins=g_bins, gamma = 1.0,
     V = np.max(Q, axis=env.observation_space.shape[0])
     pi = lambda s:{s:a for s, a in enumerate(np.argmax(Q, axis=env.observation_space.shape[0]))}[s]
     return Q, V, pi
+
+~~~
+
 ## OUTPUT:
 <img width="825" alt="image" src="https://github.com/KoduruSanathKumarReddy/rl-cartpole/assets/69503902/69d946e6-5079-49c1-910f-3d51ba9887c1">
 <img width="825" alt="image" src="https://github.com/KoduruSanathKumarReddy/rl-cartpole/assets/69503902/5832993d-7703-4f92-b7e9-543ca598229b">
