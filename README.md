@@ -130,11 +130,11 @@ def mc_control (env,n_bins=g_bins, gamma = 1.0,
 ~~~
 
 ## OUTPUT:
-<img width="825" alt="image" src="https://github.com/KoduruSanathKumarReddy/rl-cartpole/assets/69503902/69d946e6-5079-49c1-910f-3d51ba9887c1">
-<img width="825" alt="image" src="https://github.com/KoduruSanathKumarReddy/rl-cartpole/assets/69503902/5832993d-7703-4f92-b7e9-543ca598229b">
-<img width="825" alt="image" src="https://github.com/KoduruSanathKumarReddy/rl-cartpole/assets/69503902/e0e22154-c143-47b8-8a3b-2e6488a6f862">
+<img width="1364" alt="image" src="https://github.com/KoduruSanathKumarReddy/rl-cartpole/assets/69503902/eb6cb89b-7068-4d56-87fd-631b99aec1b2">
 
-<img width="531" alt="image" src="https://github.com/KoduruSanathKumarReddy/rl-cartpole/assets/69503902/026cc641-d6ef-4b1b-ae25-f0116b4bdcd5">
+
+<img width="559" alt="image" src="https://github.com/KoduruSanathKumarReddy/rl-cartpole/assets/69503902/32fecb63-a5d7-44ca-90af-9e78f8e7a38b">
+
 
 
 ## RESULT:
